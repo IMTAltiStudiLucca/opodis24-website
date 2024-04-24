@@ -144,4 +144,17 @@ jQuery(document).ready(function( $ ) {
 
 // custom code
 
+  // Custom code to highlight active menu based on URL hash
+  var sectionsToHighlight = ['committees', 'venue', 'travel', 'registration'];
+
+  sectionsToHighlight.forEach(function (sectionId) {
+    if (window.location.hash === '#' + sectionId) {
+      var sectionMenuItem = $('a[href="#' + sectionId + '"]');
+      if (sectionMenuItem.length) {
+        $('.nav-menu li').removeClass('menu-active');
+        sectionMenuItem.closest('li').addClass('menu-active');
+      }
+    }
+  });
+
 });

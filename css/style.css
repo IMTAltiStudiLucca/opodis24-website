@@ -790,6 +790,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   margin-bottom: 10px;
 }
+.subtitleBioUniversity{
+  text-align: center;
+}
 
 /*--------------------------------------------------------------
 # Schedule Section
@@ -1680,3 +1683,4 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
+

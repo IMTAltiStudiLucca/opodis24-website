@@ -193,6 +193,20 @@ h6 {
   max-height: 20px;
 }
 
+.noTrasparentHeader{
+  background-color: rgba(6, 12, 34, 0.98);
+}
+
+.cfpMainTitle{
+  margin-top: 70px;
+}
+
+.cfpLineTitle::before{
+  margin-bottom: 18px;
+}
+
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1562,6 +1576,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-left: 5px;
 }
 
+.acceptedPapersMainTitle{
+  margin-top: 70px;
+}
+
+.acceptedPapersLineTitle::before{
+  margin-bottom: 18px;
+}
 
 
 /*--------------------------------------------------------------
